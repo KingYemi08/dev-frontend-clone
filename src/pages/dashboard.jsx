@@ -6,7 +6,7 @@ import { useGlobal } from "../context/globalContext";
 export default function Dashboard() {
   const [isActive, setIsActive] = useState(() => {
     const active = localStorage.getItem("active");
-    return active;
+    return active ? active : "posts";
   });
   const {
     userPost,
