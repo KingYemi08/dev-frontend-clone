@@ -1,0 +1,80 @@
+.myStyle:hover span {
+  text-decoration: underline;
+}
+.anot::-webkit-scrollbar {
+  display: none;
+}
+.anot {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.cc div {
+  cursor: pointer;
+}
+.cc h2 {
+  transition: all;
+}
+.cc h2:hover {
+  color: #155dfc;
+}
+.ne:hover h2 {
+  color: #3b49df;
+}
+
+.ro {
+  transform: rotateY(360deg);
+}
+
+.hin {
+  height: 30px;
+  border-radius: 20px;
+  animation: hii 2s infinite;
+  animation-delay: 0.5s;
+  transition: ease-in-out;
+}
+
+.hib {
+  height: 30px;
+  border-radius: 20px;
+  animation: hi 2s infinite;
+  animation-delay: 1s;
+  transition: ease-in-out;
+}
+
+.hic {
+  height: 30px;
+  border-radius: 20px;
+  animation: h 2s infinite;
+  animation-delay: 2s;
+  transition: ease-in-out;
+}
+
+@keyframes hii {
+  0% {
+    height: 30px;
+  }
+
+  25% {
+    height: 40px;
+  }
+}
+
+@keyframes hi {
+  0% {
+    height: 30px;
+  }
+
+  25% {
+    height: 50px;
+  }
+}
+
+@keyframes h {
+  0% {
+    height: 30px;
+  }
+
+  25% {
+    height: 60px;
+  }
+}
